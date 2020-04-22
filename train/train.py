@@ -40,7 +40,7 @@ test = np.load('/import/c4dm-datasets/manxShearwaters/adult_vs_chick/test_PCEN.n
 # pre_tr_path = 'laughter_model_PCEN.h5'
 
 # choose which GPU to use
-gpu = "3"
+gpu = "0"
 
 # set number of mels
 # all pretrained and baseline networks are at 8,000 Hz so keep mels set to 45
@@ -77,8 +77,7 @@ checkpoints = 'checkpoints'
 
 #classification task:
 # adult grunts, adult bouts, chicks
-nb_classes = 3 # before it was 5 for FOC only, before before it was 8 for number of call types
-
+nb_classes = 3
 ########################
 
 
