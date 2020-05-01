@@ -1,4 +1,4 @@
-data preprocessing:
+#### preprocessing:
 
   1) create dataset
     
@@ -14,14 +14,14 @@ data preprocessing:
   
   3) split dataset and normalize
   
-  4)[OPT] Analysis dataset
+  4) [OPT] Analysis dataset
 
-Train
+#### Train
 
   1) train.py
     
  
-predict
+#### predict
 
   1) apply_model notebook
   
